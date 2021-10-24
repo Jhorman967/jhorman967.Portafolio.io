@@ -20,6 +20,14 @@
   };
 
   /**
+   *
+   * loader spinner
+   */
+  window.onload = function () {
+    $("#onload").fadeOut();
+    $("body").removeClass("hidden");
+  };
+  /**
    * Easy event listener function
    */
   const on = (type, el, listener, all = false) => {
