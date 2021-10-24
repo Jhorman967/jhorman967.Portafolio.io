@@ -21,6 +21,9 @@ body {
   background-color: #000;
   z-index: 9998;
 }
+.button-mobile {
+  visibility: hidden;
+}
 
 .hidden {
   overflow: hidden;

@@ -26,6 +26,8 @@
   window.onload = function () {
     $("#onload").fadeOut();
     $("body").removeClass("hidden");
+    $("head").removeClass("hidden");
+    $("i").removeClass("button-mobile");
   };
   /**
    * Easy event listener function
