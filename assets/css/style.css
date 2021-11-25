@@ -381,10 +381,10 @@ h6 {
   #hero h1 {
     padding-top: 450px;
   }
-  #hero:before {
+  #hero::before {
     background: rgba(223, 27, 27, 0.3);
     position: absolute;
-    bottom: -1em;
+    height: -1em;
   }
 }
 
