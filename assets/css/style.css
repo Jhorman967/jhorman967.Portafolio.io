@@ -381,6 +381,16 @@ h6 {
   #hero h1 {
     padding-top: 450px;
   }
+  #hero::before {
+    content: "";
+    background: rgba(27, 108, 223, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: -100vh;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
 }
 
 /*--------------------------------------------------------------
